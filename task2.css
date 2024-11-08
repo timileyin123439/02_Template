@@ -1,0 +1,149 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    position: relative;
+  }
+  header img {
+    position: relative;
+  }
+  .opacity {
+  position: absolute;
+  z-index: 1;
+  bottom: 12%;
+  color: gray;
+  font-size: 55px;
+  }
+
+  .mine a {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 30px;
+
+
+  }
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .you {
+    max-width: 400px;
+  }
+  .content {
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+.hide{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    overflow: hidden;
+    position: sticky;
+}
+.top-nav {
+    display: flex;
+    gap: 20px;
+
+}
+.hide a {
+    display: block;
+    color: black;
+    text-align: center;
+    max-width: 1500px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.col{
+    box-sizing: inherit;
+    color: black;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-family: "fair display";
+}
+
+.center{
+    text-align: center;
+}
+.a8{
+    text-align: center;
+}
+.pi{
+    font-size: large;
+}
+.p{
+    box-sizing: inherit;
+    color: grey;
+    font-size: large;
+}
+
+
+.text{
+    color: grey;
+}
+.me{
+    margin-top: 40px;
+    padding: 75px;
+}
+.blue-grey{
+    color: blue;
+    font-size: large;
+}
+.input{
+    border-bottom:  0.5px solid grey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 80%;
+    text-align: left;
+    font-size: large;
+    text-indent: 70px;
+    margin: 10px;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+  .padding {
+    display: none;
+  }
+  .usa {
+    display: none;
+    
+  }
+  .me {
+    padding: 20px;
+    margin-top: 0px;
+  }
+  .you {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .opacity {
+    font-size: 25px;
+  }
+  .input {
+    text-indent: 0px;
+    margin: 5px;
+    padding: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
